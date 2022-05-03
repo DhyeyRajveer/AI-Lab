@@ -1,0 +1,2 @@
+listLength([],0).
+listLength([_|TAIL], N):- listLength(TAIL, N1), N is N1 + 1.
